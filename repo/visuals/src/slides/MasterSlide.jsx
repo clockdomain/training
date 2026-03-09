@@ -23,11 +23,12 @@ export default function MasterSlide({ onSelectTrack }) {
       title: "pw_kernel",
       subtitle: "KERNEL INTERNALS",
       items: [
-        "Channel IPC Overview",
-        "Signal State Machine",
-        "Channels in Code — Config & Syscalls",
+        "Kernel Objects — Building Blocks",
+        "Threads & Processes — Execution Model",
+        "Channel IPC & Signal State Machine",
+        "Wait Groups — Multiplexed Waiting",
       ],
-      count: 3,
+      count: 6,
     },
   ];
 

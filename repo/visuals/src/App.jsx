@@ -9,9 +9,12 @@ import BazelCards from "./slides/BazelCards";
 import RustBazel from "./slides/RustBazel";
 import EmbeddedBzlmod from "./slides/EmbeddedBzlmod";
 import KernelTitleSlide from "./slides/KernelTitleSlide";
+import KernelObjects from "./slides/KernelObjects";
+import ThreadsProcesses from "./slides/ThreadsProcesses";
 import ChannelOverview from "./slides/ChannelOverview";
 import ChannelSignals from "./slides/ChannelSignals";
 import ChannelCode from "./slides/ChannelCode";
+import WaitGroups from "./slides/WaitGroups";
 
 const tracks = {
   bazel: [
@@ -26,9 +29,12 @@ const tracks = {
   ],
   kernel: [
     { id: "k-title", label: "Intro", component: KernelTitleSlide },
+    { id: "k-objects", label: "Objects", component: KernelObjects },
+    { id: "k-threads", label: "Threads", component: ThreadsProcesses },
     { id: "ch-overview", label: "Channels", component: ChannelOverview },
     { id: "ch-signals", label: "Signals", component: ChannelSignals },
     { id: "ch-code", label: "Ch. Code", component: ChannelCode },
+    { id: "wait-groups", label: "Wait Groups", component: WaitGroups },
   ],
 };
 
